@@ -1,0 +1,8 @@
+@keyframes flash {
+  from {
+    opecity: 0;
+  }
+  to {
+    opecity: 1;
+  }
+}

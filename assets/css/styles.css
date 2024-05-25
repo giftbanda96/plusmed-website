@@ -1,0 +1,356 @@
+.nav_icon {
+  width: 54px;
+  height: 50px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.icon_no_color {
+  background-image: url(site/logo_site_nav_white.png);
+}
+
+.icon_color {
+  background-image: url(../../assets/img/site/logo_site_nav.png);
+}
+
+header.masthead .page-heading .subheading, header.masthead .site-heading .subheading {
+  font-size: 20px;
+  text-shadow: 0px 1px 2px rgba(0,0,0,0.4);
+}
+
+header.masthead .page-heading h1, header.masthead .site-heading h1 {
+  font-size: 45px;
+  text-shadow: 0px 1px 2px rgba(0,0,0,0.4);
+}
+
+.operating_hrs_div {
+  width: 100%;
+  padding-bottom: 15px;
+  background-color: rgba(28,174,231,0.6);
+  padding-top: 20px;
+  text-align: center;
+  display: block;
+}
+
+.partners_div {
+  width: 100%;
+  background-color: #ffffff;
+  text-align: center;
+  display: block;
+}
+
+.container.body-container {
+  padding: 0px;
+}
+
+.custome-col {
+  padding-right: 2px;
+}
+
+.body-content-div {
+  width: 100%;
+  min-height: 100vh;
+  padding: 8px;
+  border: 1px solid rgb(229,229,229);
+}
+
+.home-calender {
+  color: white;
+  font-size: 120px;
+  text-shadow: 0px 1px 2px rgba(0,0,0,0.4);
+}
+
+.carendar_div {
+  margin-bottom: 15px;
+}
+
+.operating_hrs_head {
+  text-shadow: 0px 1px 2px rgba(0,0,0,0.4);
+  margin-bottom: 5px;
+}
+
+.custome-hr {
+  margin: 12px;
+}
+
+.operating_hrs_para {
+  margin: 0px;
+  font-family: 'Annie Use Your Telescope';
+  color: rgb(35,119,179);
+  /*text-shadow: 0px 1px 2px rgba(0,0,0,0.4);*/
+  display: inline-block;
+}
+
+.operating_hrs_para.val {
+  margin-left: 6px;
+  color: white;
+  font-family: cursive;
+  text-shadow: 0px 1px 2px rgba(0,0,0,0.4);
+}
+
+.web-links {
+  color: white;
+  font-family: cursive;
+  font-size: 17px;
+  text-shadow: 0px 1px 2px rgba(0,0,0,0.4);
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+  color: #495057;
+  background-color: #fff;
+  border: 3px solid;
+  border-color: rgba(255,255,255,0.3) rgba(255,255,255,0.3) #2377b3;
+}
+
+.nav-tabs .nav-link {
+  font-family: 'Allerta Stencil';
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.slide-cont {
+  background-color: rgba(244,235,235,0.86);
+  max-height: 420px;
+  overflow: hidden;
+}
+
+.slick-next {
+  position: absolute;
+  top: 40%;
+  right: 3px;
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  color: transparent;
+  z-index: 2;
+  background-image: url(../../assets/img/site/icons8_circled_right_50p.png);
+  box-shadow: 1px 1px 5px rgba(191,187,187,0.55);
+  border: none;
+  outline: none;
+  content: '→';
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0;
+  cursor: pointer;
+}
+
+.slick-prev {
+  position: absolute;
+  top: 40%;
+  height: 35px;
+  left: 3px;
+  width: 35px;
+  border-radius: 50%;
+  color: transparent;
+  z-index: 2;
+  background-image: url(../../assets/img/site/icons8_back_50px.png);
+  box-shadow: 1px 1px 5px rgba(191,187,187,0.55);
+  border: none;
+  outline: none;
+  content: '←';
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0;
+  cursor: pointer;
+}
+
+.slick-next:focus {
+  outline: none;
+  border: none;
+}
+
+.slick-prev:focus {
+  outline: none;
+  border: none;
+}
+
+.slick-dotted.slick-slider {
+  margin-bottom: 30px;
+}
+
+.slick-dots {
+  position: absolute;
+  bottom: -25px;
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-align: center;
+}
+
+.slick-dots li {
+  position: relative;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
+  padding: 0;
+  cursor: pointer;
+}
+
+.slick-dots li button {
+  font-size: 0;
+  line-height: 0;
+  display: block;
+  width: 20px;
+  height: 20px;
+  padding: 5px;
+  cursor: pointer;
+  /*color: transparent;*/
+  border: 0;
+  border-radius: 50%;
+  outline: none;
+  /*background: transparent;*/
+}
+
+.slick-dots li button:hover, .slick-dots li button:focus {
+  outline: none;
+}
+
+.slick-dots li button:hover:before, .slick-dots li button:focus:before {
+  opacity: 1;
+}
+
+.slick-dots li button:before {
+  font-family: 'slick';
+  font-size: 6px;
+  line-height: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  content: '•';
+  text-align: center;
+  opacity: .25;
+  color: black;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.slick-dots li.slick-active button:before {
+  opacity: .75;
+  color: black;
+}
+
+.other-news {
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 7px;
+}
+
+.other-news-pic-div {
+  height: 250px;
+  background-image: url(../../assets/img/13.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 3px;
+}
+
+.other-news2-pic-div {
+  height: 250px;
+  background-image: url(../../assets/img/17.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 3px;
+}
+
+.other-news-info-div {
+  height: 100%;
+}
+
+.snap-info {
+  border-right: 1px solid rgb(236,236,236);
+}
+
+@media (min-width: 320px) and (max-width:768px) {
+  .snap-info {
+    border-right: none;
+  }
+}
+
+@media (min-width: 320px) and (max-width:768px) {
+  .other-news-info-para {
+    text-align: center;
+  }
+}
+
+.other-news-info-para {
+  padding: 0px;
+  font-size: 0.8em;
+  line-height: 1.6em;
+  font-family: 'Raleway', Arial, sans-serif;
+}
+
+.collapsible {
+  background-color: white;
+  color: #009dd6;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  margin-top: 10px;
+  border: none;
+  border-top: 1px solid #ececec;
+  text-align: left;
+  outline: none;
+  font-size: 18px;
+  font-family: Lora,Times New Roman,serif;
+}
+
+.collapsible.active, .collapsible:hover {
+  background-color: #888888;
+  color: white;
+  border: none;
+  outline: none;
+}
+
+.collaps-content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+
+.collapsible:focus {
+  outline: none;
+}
+
+.section_in_doc:hover {
+  text-decoration: initial;
+  color: initial;
+}
+
+.section_in_doc.active {
+  text-decoration: initial;
+  color: initial;
+  outline: none;
+  border: initial;
+}
+
+body {
+  scroll-behavior: smooth;
+}
+
+.article_details {
+  height: 25px;
+  background-color: rgba(0,0,0,0.5);
+  color: rgba(255,255,255,0.85);
+  padding: 1px 8px;
+  border-radius: 4px;
+  position: absolute;
+  right: 6px;
+  top: 6px;
+  box-shadow: 0px 0px 0px 3px rgba(0, 0, 0, 0.1);
+}
+
+.article_details i {
+  margin-right: 2px;
+}
+
+.article-slider-div {
+  display: block;
+}
+

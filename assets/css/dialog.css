@@ -1,0 +1,61 @@
+.error {
+  background: url(../../assets/img/icons8_error_45px.png);
+}
+
+.warning {
+  background: url(../../assets/img/icons8_attention_45px.png);
+}
+
+.success {
+  background: url(../../assets/img/icons8_in_progress_45px.png);
+}
+
+.uploading {
+  background: url(../../assets/img/icons8_upload_to_cloud_45px.png);
+}
+
+#alert_dialog_container {
+  display: none;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  padding-top: 9%;
+  top: 0px;
+  left: 0px;
+  background-color: rgba(32,32,34,0.31);
+}
+
+#dialog_box {
+  min-width: 260px;
+  width: 300px;
+  border-radius: 6px;
+  background-color: white;
+  margin: 12% auto;
+  padding-top: 4px;
+  box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.1);
+}
+
+#info_logo_div {
+  height: 43px;
+  width: 43px;
+  margin: 0px auto;
+  background-size: contain;
+}
+
+#dialog_info_para {
+  font-size: 13px;
+  line-height: 43px;
+  color: rgb(81,81,84);
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+.dialog_ok_btn {
+  width: 100%;
+  background-color: rgb(100,159,204);
+}
+
+.dialog_ok_btn {
+  height: 50px;
+}
+
