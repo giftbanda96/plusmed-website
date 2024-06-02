@@ -1,0 +1,16 @@
+/* CSS code */
+.apply-button {
+  display: flex;
+  justify-content: center; /* center the element horizontally */
+  margin-top: 50px; /* add spacing from the top */
+}
+.apply-button a {
+  padding: 12px 24px; /* add padding around the text */
+  background-color: #007bff; /* set background color */
+  color: #fff; /* set text color */
+  text-decoration: none; /* remove underline for the link */
+  border-radius: 6px; /* add rounded corners for the button */
+}
+.apply-button a:hover {
+  background-color: #0062cc; /* change background color on hover */
+}
