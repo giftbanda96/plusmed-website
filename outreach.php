@@ -4,15 +4,17 @@ echo "hi";
 
 print_r($_POST);
 
-if (isset($_POST['name']) && 
-    isset($_POST['age']) && 
-    isset($_POST['gender']) && 
-    isset($_POST['school']) && 
-    isset($_POST['parent']) && 
-    isset($_POST['email']) && 
-    isset($_POST['phone']) && 
-    isset($_POST['message']) && 
-    isset($_POST['date'])) {
+if (
+  isset($_POST['name']) &&
+  isset($_POST['age']) &&
+  isset($_POST['gender']) &&
+  isset($_POST['school']) &&
+  isset($_POST['parent']) &&
+  isset($_POST['email']) &&
+  isset($_POST['phone']) &&
+  isset($_POST['message']) &&
+  isset($_POST['date'])
+) {
 
   // EDIT THE 2 LINES BELOW AS REQUIRED
   $email_to = "info@plusmedicalrehab.com";
@@ -33,7 +35,8 @@ if (isset($_POST['name']) &&
 
   $email_message = "Form details below.\n\n";
 
-  function clean_string($string) {
+  function clean_string($string)
+  {
     $bad = array("content-type", "bcc:", "to:", "cc:", "href");
     return str_replace($bad, "", $string);
   }
@@ -50,8 +53,8 @@ if (isset($_POST['name']) &&
 
   // create email headers
   $headers = 'From: ' . $email . "\r\n" .
-             'Reply-To: ' . $email . "\r\n" .
-             'X-Mailer: PHP/' . phpversion();
+    'Reply-To: ' . $email . "\r\n" .
+    'X-Mailer: PHP/' . phpversion();
 
   mail($email_to, $email_subject, $email_message, $headers);
 
@@ -59,4 +62,3 @@ if (isset($_POST['name']) &&
 } else {
   echo "Some required fields are missing.";
 }
-?>
